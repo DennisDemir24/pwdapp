@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height:100%;
+    width: auto;
+    overflow: hidden;
+}
+
+body {
+    background: url('../moon.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+img {
+    width: 100px;
+}
+
+.nav {
+    justify-content: center;
+}
+
+.nav-link {
+    color: black;
+    padding: 1rem 1rem;
+    margin-right: 1rem;
+}
+
+.nav-link:hover {
+    color: #7339aa;
+}
+
+svg {
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #472b62;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    overflow: hidden;
+}
